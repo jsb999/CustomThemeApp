@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ThemeApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="CustomThemeRed" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColorRed</item>
+        <item name="colorOnPrimary">@color/primaryDarkColorRed</item>
+        <item name="colorSecondary">@color/secondaryColorRed</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColorRed</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDarkColorRed</item>
+    </style>
+    <style name="ButtonThemeRed">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">@color/secondaryColorRed</item>
+    </style>
+    <style name="TextViewRed">
+        <item name="android:textColor">@color/secondaryLightColorRed</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+    </style>
+    <style name="TextViewBlack2">
+        <item name="android:textColor">@color/primaryDarkColorRed</item>
+        <item name="android:background">@color/secondaryDarkColorRed</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingBlack</item>
+    </style>
+
+
+    <style name="CustomThemeGreen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColorGreen</item>
+        <item name="colorOnPrimary">@color/primaryDarkColorGreen</item>
+        <item name="colorSecondary">@color/secondaryColorGreen</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColorGreen</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDarkColorGreen</item>
+    </style>
+    <style name="ButtonThemeGreen">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">@color/secondaryColorGreen</item>
+    </style>
+    <style name="TextViewWhite">
+        <item name="android:textColor">@color/primaryTextColorGreen</item>
+        <item name="android:background">@color/primaryLightGrayGreen</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+    </style>
+    <style name="TextViewGreen">
+    <item name="android:textColor">@color/secondaryLightColorGreen</item>
+    <item name="android:background">@color/black</item>
+    <item name="android:textSize">@dimen/textViewSize</item>
+    <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+</style>
+    <style name="TextViewBlack">
+        <item name="android:textColor">@color/primaryDarkColorGreen</item>
+        <item name="android:background">@color/secondaryDarkColorGreen</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingBlack</item>
+    </style>
+
+
+</resources>
