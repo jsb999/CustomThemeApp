@@ -26,12 +26,14 @@
     <style name="ButtonThemeRed">
         <item name="android:textColor">@color/black</item>
         <item name="android:backgroundTint">@color/secondaryColorRed</item>
+        <item name="cornerRadius">@dimen/RoundedEdgeRadius</item>
     </style>
     <style name="TextViewRed">
         <item name="android:textColor">@color/secondaryLightColorRed</item>
         <item name="android:background">@color/black</item>
         <item name="android:textSize">@dimen/textViewSize</item>
         <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+        <item name="android:gravity">center</item>
     </style>
     <style name="TextViewBlack2">
         <item name="android:textColor">@color/primaryDarkColorRed</item>
@@ -52,19 +54,15 @@
     <style name="ButtonThemeGreen">
         <item name="android:textColor">@color/black</item>
         <item name="android:backgroundTint">@color/secondaryColorGreen</item>
-    </style>
-    <style name="TextViewWhite">
-        <item name="android:textColor">@color/primaryTextColorGreen</item>
-        <item name="android:background">@color/primaryLightGrayGreen</item>
-        <item name="android:textSize">@dimen/textViewSize</item>
-        <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+        <item name="cornerRadius">@dimen/RoundedEdgeRadius</item>
     </style>
     <style name="TextViewGreen">
-    <item name="android:textColor">@color/secondaryLightColorGreen</item>
-    <item name="android:background">@color/black</item>
-    <item name="android:textSize">@dimen/textViewSize</item>
-    <item name="android:padding">@dimen/TextViewPaddingWhite</item>
-</style>
+        <item name="android:textColor">@color/secondaryLightColorGreen</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
     <style name="TextViewBlack">
         <item name="android:textColor">@color/primaryDarkColorGreen</item>
         <item name="android:background">@color/secondaryDarkColorGreen</item>
@@ -72,5 +70,12 @@
         <item name="android:padding">@dimen/TextViewPaddingBlack</item>
     </style>
 
+
+    <style name="TextViewWhite">
+        <item name="android:textColor">@color/primaryTextColorGreen</item>
+        <item name="android:background">@color/primaryLightGrayGreen</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+    </style>
 
 </resources>

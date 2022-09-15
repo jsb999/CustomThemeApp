@@ -29,4 +29,14 @@
     <color name="primaryTextColorRed">#fafafa</color>
     <color name="secondaryTextColorRed">#000000</color>
 
+    <color name="primaryColorGreen">#212121</color>
+    <color name="primaryLightColorGreen">#484848</color>
+    <color name="primaryLightGrayGreen">#B1B1B1</color>
+    <color name="primaryDarkColorGreen">#000000</color>
+    <color name="secondaryColorGreen">#76ff03</color>
+    <color name="secondaryLightColorGreen">#b0ff57</color>
+    <color name="secondaryDarkColorGreen">#32cb00</color>
+    <color name="primaryTextColorGreen">#fafafa</color>
+    <color name="secondaryTextColorGreen">#212121</color>
+
 </resources>
