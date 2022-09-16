@@ -71,9 +71,37 @@
     </style>
 
 
+    <style name="CustomThemeBlue" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColorBlue</item>
+        <item name="colorOnPrimary">@color/primaryDarkColorBlue</item>
+        <item name="colorSecondary">@color/secondaryColorBlue</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColorBlue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryDarkColorBlue</item>
+    </style>
+    <style name="ButtonThemeBlue">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">@color/secondaryColorBlue</item>
+        <item name="cornerRadius">@dimen/RoundedEdgeRadius</item>
+    </style>
+    <style name="TextViewBlue">
+        <item name="android:textColor">@color/secondaryLightColorBlue</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextViewBlack3">
+        <item name="android:textColor">@color/primaryDarkColorBlue</item>
+        <item name="android:background">@color/secondaryDarkColorBlue</item>
+        <item name="android:textSize">@dimen/textViewSize</item>
+        <item name="android:padding">@dimen/TextViewPaddingBlack</item>
+    </style>
+
+
     <style name="TextViewWhite">
-        <item name="android:textColor">@color/primaryTextColorGreen</item>
-        <item name="android:background">@color/primaryLightGrayGreen</item>
+        <item name="android:textColor">@color/primaryTextColorBlue</item>
+        <item name="android:background">@color/primaryLightGrayBlue</item>
         <item name="android:textSize">@dimen/textViewSize</item>
         <item name="android:padding">@dimen/TextViewPaddingWhite</item>
     </style>

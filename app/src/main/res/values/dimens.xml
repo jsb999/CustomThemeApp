@@ -5,5 +5,5 @@
     <dimen name="TextViewPaddingWhite">5dp</dimen>
     <dimen name="TextViewPaddingGreen">6dp</dimen>
     <dimen name="RoundedEdgeRadius">10dp</dimen>
-    <dimen name="Padding Gravity">10dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
 </resources>

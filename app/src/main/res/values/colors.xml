@@ -29,14 +29,14 @@
     <color name="primaryTextColorRed">#fafafa</color>
     <color name="secondaryTextColorRed">#000000</color>
 
-    <color name="primaryColorGreen">#212121</color>
-    <color name="primaryLightColorGreen">#484848</color>
-    <color name="primaryLightGrayGreen">#B1B1B1</color>
-    <color name="primaryDarkColorGreen">#000000</color>
-    <color name="secondaryColorGreen">#76ff03</color>
-    <color name="secondaryLightColorGreen">#b0ff57</color>
-    <color name="secondaryDarkColorGreen">#32cb00</color>
-    <color name="primaryTextColorGreen">#fafafa</color>
-    <color name="secondaryTextColorGreen">#212121</color>
+    <color name="primaryColorBlue">#212121</color>
+    <color name="primaryLightColorBlue">#484848</color>
+    <color name="primaryLightGrayBlue">#B1B1B1</color>
+    <color name="primaryDarkColorBlue">#000000</color>
+    <color name="secondaryColorBlue">#0040FF</color>
+    <color name="secondaryLightColorBlue">#5781FF</color>
+    <color name="secondaryDarkColorBlue">#00359E</color>
+    <color name="primaryTextColorBlue">#fafafa</color>
+    <color name="secondaryTextColorBlue">#212121</color>
 
 </resources>
