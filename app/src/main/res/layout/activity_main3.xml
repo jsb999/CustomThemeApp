@@ -42,33 +42,4 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ToggleButton"
-        android:onClick="onClick"
-        android:layout_marginTop="@dimen/marginTop"
-        style="@style/ButtonThemeRed"/>
-
-    <ToggleButton
-        android:id="@+id/toggleButton2"
-        style="@style/ButtonThemeGreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/marginTop"
-        android:onClick="onClick"
-        android:text="ToggleButton" />
-
-    <ToggleButton
-        android:id="@+id/toggleButton3"
-        style="@style/ButtonThemeBlue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/marginTop"
-        android:checked="true"
-        android:onClick="onClick"
-        android:text="ToggleButton" />
-
-
 </LinearLayout>
